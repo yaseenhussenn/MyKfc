@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>KFC | موقع مفهوم</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700;900&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="intro" aria-hidden="true"><div class="word" id="word"></div><div class="line"></div></div>
+
+<header><div class="wrap">
+  <a class="logo" href="#top" aria-label="KFC">KFC</a>
+  <nav><a href="#menu">المنيو</a><a href="#offers">العروض</a><a href="#branches">الفروع</a></nav>
+  <a class="btn" href="#menu">اطلب دلوقتي</a>
+</div></header>
+<div class="sweep" aria-hidden="true"></div>
+
+<main id="top">
+<div class="hero flow"><div class="wrap">
+  <h1>مقرمش<br>زي ما بتحبه.</h1>
+  <p>دجاج متتبّل ومقرمش، وجبات للفرد وللعيلة، وفروع في معظم المحافظات.</p>
+  <div class="cta"><a class="btn o" href="#menu">شوف المنيو</a><a class="btn" href="#branches">أقرب فرع</a></div>
+</div></div>
+<div class="sweep" aria-hidden="true"></div>
+
+<section id="menu" style="border-top:0"><div class="wrap">
+  <h2>المنيو</h2>
+  <p class="sub">اختار القسم وضيف للطلب. الأسعار أمثلة للتصميم ومش الأسعار الرسمية.</p>
+  <div class="tabs" role="tablist" id="tabs"></div>
+  <div class="menu" id="menuGrid"></div>
+</div></section>
+
+<section id="offers" class="flow"><div class="wrap">
+  <h2>العروض</h2>
+  <p class="sub" style="color:#fff">عروض الأسبوع.</p>
+  <div class="offgrid">
+    <div class="off"><h3>بكت العيلة</h3><p>12 قطعة دجاج مع بطاطس كبيرة وكول سلو و4 مشروبات.</p><a class="btn" href="#menu">اطلبه</a></div>
+    <div class="off"><h3>وجبة الطالب</h3><p>ساندوتش زنجر مع بطاطس ومشروب بسعر موفّر.</p><a class="btn" href="#menu">اطلبها</a></div>
+  </div>
+</div></section>
+
+<section id="branches"><div class="wrap">
+  <h2>الفروع</h2>
+  <p class="sub">اختار المحافظة أو ابحث بالمنطقة.</p>
+  <div class="hot">الخط الساخن للتوصيل: <b dir="ltr">19019</b></div>
+  <div class="filters">
+    <select id="gov" aria-label="المحافظة"></select>
+    <input id="q" type="search" placeholder="ابحث عن منطقة أو شارع" aria-label="بحث">
+  </div>
+  <div class="branches" id="brGrid"></div>
+  <p class="note">القائمة جزئية ومجمّعة من مصادر عامة، وبعض العناوين ممكن تكون اتغيرت. اتأكد من الفرع أو الخط الساخن قبل ما تروح.</p>
+</div></section>
+</main>
+
+<div class="sweep" aria-hidden="true"></div>
+<footer class="flow"><div class="wrap"><span>تصميم مفهوم غير رسمي، مش تابع للعلامة التجارية الأصلية.</span><span>© 2026</span></div></footer>
+
+<div class="bar" id="bar"><div class="wrap"><div><span id="cnt">0</span> صنف · <b id="tot">0</b> ج.م</div><button class="btn" id="order">أكّد الطلب</button></div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
